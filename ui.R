@@ -10,10 +10,10 @@ shinyUI(fluidPage(
     
     column(3,
            selectInput("select", label = h3("Primera Categoria", style ="color:#297418;"), 
-                       choices =  vec_aux1[3:40]), tableOutput("text1_jd")),
+                       choices =  vec_aux1[3:41]), tableOutput("text1_jd")),
     column(3,
            selectInput("select2", label = h3("Segunda Categoria", style = "color:#dd21d5;"), 
-                       choices =vec_aux1[3:40]), tableOutput("text2_jd")),
+                       choices =vec_aux1[3:41]), tableOutput("text2_jd")),
     
     
     
